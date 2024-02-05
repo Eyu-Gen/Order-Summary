@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.heroSection{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+}
+
+#image{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 50px;
+}
+
+.detailSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 900;
+    color:hsl(223, 46%, 15%);
+    margin-bottom: 20px;
+}
+
+.description{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: hsl(221, 20%, 34%);
+    margin-bottom: 20px;
+}
+
+.planSection{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    margin-bottom: 30px;
+}
+
+.music{
+    margin-left: 20px;
+}
+
+.name{
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.price{
+    font-size: 17px;
+    font-weight: 500;
+    color: hsl(221, 20%, 34%);
+}
+
+.change{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 20px;
+    transition: all ease-in 0.1s;
+}
+
+
+button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    box-shadow: 0px 10px 20px hsl(245, 60%, 83%);
+    margin-bottom: 30px;
+    transition: all ease-in 0.1s;
+}
+
+.change:hover, button:hover{
+    text-decoration: none;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.cancel{
+    font-size: 16px;
+    font-weight: 900;
+    color: hsl(221, 20%, 34%);
+    margin-bottom: 50px;
+    transition: all ease-in 0.1s;
+}
+
+.cancel:hover{
+    color: black;
+    cursor: pointer;
+}
